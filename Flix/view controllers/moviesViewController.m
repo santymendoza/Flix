@@ -116,7 +116,6 @@
     DetailsViewController *detailViewController = [segue destinationViewController];
     detailViewController.movie = movie;
     
-    NSLog(@"lol");
 }
 
 
