@@ -61,7 +61,7 @@
            }
            else {
                NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-               NSLog(@"%@", dataDictionary);
+               //NSLog(@"%@", dataDictionary);
                
                self.movies = dataDictionary[@"results"];
                self.filteredMovies = self.movies;
@@ -106,7 +106,7 @@
     movieCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"movieCollectionCell" forIndexPath:indexPath];
     NSDictionary *movie = self.filteredMovies[indexPath.item];
     
-    NSString *title = movie[@"original_title"];
+   // NSString *title = movie[@"original_title"];
     
     NSString *baseURLString = @"https://image.tmdb.org/t/p/w500";
     NSString *posterURLString = movie[@"poster_path"];

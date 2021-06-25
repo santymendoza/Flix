@@ -23,6 +23,7 @@
 		F9535BBB2683D50C002579C8 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9535BBA2683D50C002579C8 /* DetailsViewController.m */; };
 		F9535BBE26852380002579C8 /* moviesGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9535BBD26852380002579C8 /* moviesGridViewController.m */; };
 		F9535BC1268525AA002579C8 /* movieCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9535BC0268525AA002579C8 /* movieCollectionCell.m */; };
+		F9EFF9D72686644A003844D6 /* RelatedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EFF9D62686644A003844D6 /* RelatedCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		F9535BBD26852380002579C8 /* moviesGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moviesGridViewController.m; sourceTree = "<group>"; };
 		F9535BBF268525AA002579C8 /* movieCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movieCollectionCell.h; sourceTree = "<group>"; };
 		F9535BC0268525AA002579C8 /* movieCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movieCollectionCell.m; sourceTree = "<group>"; };
+		F9EFF9D52686644A003844D6 /* RelatedCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelatedCollectionViewCell.h; sourceTree = "<group>"; };
+		F9EFF9D62686644A003844D6 /* RelatedCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelatedCollectionViewCell.m; sourceTree = "<group>"; };
 		FB5424A7D1E3AA5ECADBD477 /* Pods-Flix-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix-FlixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Flix-FlixUITests/Pods-Flix-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,6 +213,8 @@
 				F9535BB42683C1A6002579C8 /* MovieCell.m */,
 				F9535BBF268525AA002579C8 /* movieCollectionCell.h */,
 				F9535BC0268525AA002579C8 /* movieCollectionCell.m */,
+				F9EFF9D52686644A003844D6 /* RelatedCollectionViewCell.h */,
+				F9EFF9D62686644A003844D6 /* RelatedCollectionViewCell.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -460,6 +465,7 @@
 			files = (
 				F9535BAF26839B46002579C8 /* moviesViewController.m in Sources */,
 				F9535BB52683C1A6002579C8 /* MovieCell.m in Sources */,
+				F9EFF9D72686644A003844D6 /* RelatedCollectionViewCell.m in Sources */,
 				F9535B7A2683907B002579C8 /* AppDelegate.m in Sources */,
 				F9535BBB2683D50C002579C8 /* DetailsViewController.m in Sources */,
 				F9535BC1268525AA002579C8 /* movieCollectionCell.m in Sources */,
