@@ -44,6 +44,10 @@
 
 }
 
+- (void) getRelatedMovies {
+    
+}
+
 /*
 #pragma mark - Navigation
 
