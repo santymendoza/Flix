@@ -6,6 +6,8 @@
 //
 
 #import "MovieCell.h"
+#import "MovieModel.h"
+#import "UIImageView+AFNetworking.h"
 
 @implementation MovieCell
 
@@ -20,4 +22,16 @@
     // Configure the view for the selected state
 }
 
+- (void) setMovie:(MovieModel *)movie{
+    
+    self.titleLabel.text = movie.title;
+    self.posterView.image = nil;
+    if(self.movie.posterUrl != nil){
+        [self.posterView setImageWithURL:movie.posterUrl];
+    }
+    self.descriptLabel.text = movie.movieDescription;
+    self.movie = movie;
+    
+    
+}
 @end
